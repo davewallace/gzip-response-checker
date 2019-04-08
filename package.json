@@ -1,0 +1,13 @@
+{
+    "name": "davewallace",
+    "description": "Script to harvest URLs from an input file and request a response from each URL to determine how many of those URLs serve a gzip-enabled response.",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "node-fetch": "~2.3.0"
+    },
+    "engines": {
+        "node": "10"
+    }
+}
